@@ -44,8 +44,8 @@ const TabOne = () => {
   return <div>
     <SearchBar search={search} onSearchChange={handleSearchChange} loading={isLoading} />
     {
-      products.map(product => (
-        <Product product={product} key={product.id} />
+      products.map((product, index) => (
+        <Product product={product} key={product.id} index={index} />
       ))
     }
   </div>;
