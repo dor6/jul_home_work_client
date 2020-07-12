@@ -1,5 +1,5 @@
 const Config = {
-  serverHost: 'http://localhost:3000'
+  serverHost: 'https://jul-homework-server.herokuapp.com'
 };
 
 export default Config;
