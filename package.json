@@ -2,6 +2,10 @@
   "name": "react-redux-observables",
   "version": "1.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.13.4",
+    "node": "12.15.0"
+  },
   "dependencies": {
     "@material-ui/core": "^4.9.12",
     "@material-ui/icons": "^4.9.1",
