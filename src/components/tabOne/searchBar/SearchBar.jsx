@@ -9,7 +9,7 @@ const useStyles = makeStyles(() => ({
   root: {
     maxWidth: 500,
     margin: 'auto',
-    paddingTop: 20
+    padding: 20
   },
 }));
 
