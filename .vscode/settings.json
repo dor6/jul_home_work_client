@@ -1,0 +1,30 @@
+{
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#8a1972",
+    "statusBarItem.hoverBackground": "#b52196",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBar.border": "#8a1972"
+  },
+  "peacock.color": "#8a1972",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "javascript.validate.enable": false,
+  "editor.parameterHints.enabled": false,
+
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "prettier.disableLanguages": ["js"],
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "files.autoSave": "onFocusChange",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
